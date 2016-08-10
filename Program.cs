@@ -117,6 +117,31 @@ namespace Conversor_Gabriel_Luis_2003
             #endregion
 
             #region HexBin
+            
+            Console.WriteLine("Binário para hexadecimal e vice-versa");
+
+            Console.WriteLine("Datilografe o binário a ser convertido");
+
+            string MyBin = Convert.ToString(Console.ReadLine());
+
+            int MyDec = Convert.ToInt32(MyBin, 2);
+
+            string MyHex = MyDec.ToString("X");
+
+            Console.WriteLine("O hexadecimal deste binário é" + " " + MyHex);
+
+
+            Console.WriteLine("Datilografe o hexadecimal a ser convertido");
+
+            string MioHex = Console.ReadLine().ToUpper();
+
+            int MioDec = Convert.ToInt32(MioHex, 16);
+
+            string MioBin = Convert.ToString(Deci, 2);
+
+            Console.WriteLine("O binário deste hexadecimal é" + " " + MioBin);
+
+            Console.ReadKey();
 
             #endregion
         }
