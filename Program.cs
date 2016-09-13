@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Conversor_Gabriel_Luis_2003
+namespace Conversor_Gabriel_2003
 {
     static class HexDecBin
     {
